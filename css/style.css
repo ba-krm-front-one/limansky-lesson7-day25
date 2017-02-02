@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    align-content: center;
+}
+body{
+    min-width: 320px;
+}
+div{
+    max-width: auto;
+    min-height: 940px;
+
+    box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 130px;
+    margin-top: 100px;
+    min-width: 860px;
+    vertical-align: middle;
+}
+.text-conteiner{
+    padding-left: 121px;
+    padding-right: 138px;
+    padding-top: 140px;
+    padding-bottom: 227px;
+}
+
+.zagolovok{
+     color: #171717;
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-weight: 400;
+    margin:0;
+
+}
+.text1:first-letter{
+    width: 62px;
+    height: 79px;
+    font-family: "Playfair Display";
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: black;
+    /*padding-bottom: 4px;*/
+    float: left;
+    line-height: 0.8em;
+    margin-right: 0.3em;
+
+}
+
+.text1,
+.text {
+    /* Style for "his happen" */
+    max-width: 1141px;
+    min-width: 500px;
+    color: rgba(23,23,23,0.7);
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+}
+.text-footer{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 34px;
+    font-family: Lato;
+    opacity: 0.7;
+}
+    /* Text style for "" */
+.simbol{
+    font-size: 60px;
+    font-style: italic;
+    line-height: 40px;
+    opacity: 0.7;
+    font-family: Lato light;
+}
+
+.btn {
+    font-family: Lato;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 4rem 0 3.8rem;
+    margin-top: 40px;
+    color: #eaa258;
+    background: none;
+    border: 3px solid #eaa258;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    height: 150%;
+    background: #eaa258;
+    pointer-events: none;
+    -webkit-transform: translate3d(0, 75px, 0);
+    transform: translate3d(0, 75px, 0);
+    -webkit-transition: all 0.3s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 0.3s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.btn i {
+    font-style: normal;
+    line-height: 4.5rem;
+    display: inline-block;
+    height: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn i:hover {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0);
+}
+.btn:hover {
+    color: #333;
+}
+.btn:hover:after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
